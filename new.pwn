@@ -299,3 +299,18 @@ public OnTrailerUpdate(playerid, vehicleid)
 {
 	return 1;
 }
+
+public OnVehicleSirenStateChange(playerid, vehicleid, newstate)
+{
+	return 1;
+}
+
+public OnActorStreamIn(actorid, forplayerid)
+{
+	return 1;
+}
+
+public OnActorStreamOut(actorid, forplayerid)
+{
+	return 1;
+}
